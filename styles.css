@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    color:rgba(219, 17, 118, 0.877);
+    background-color: rgb(184, 143, 231);
+}
+button{
+     background-color: rgb(151, 153, 247);
+     color: rgb(108, 76, 184);
+}
+.container {
+    text-align: center;
+}
+
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgba(7, 29, 226, 0.795);
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin-top: 20px;
+    font-size: 1em;
+    padding: 10px 20px;
+    cursor: pointer;
+}
